@@ -78,7 +78,7 @@ export default class GameScene extends Phaser.Scene {
         this.level1Entrance = this.map.findObject("Objects", obj => obj.name === "Level1");
 
         this.player.hideInventory();
-        this.cameras.main.setViewport(0, 0, 600, 400);
+        this.cameras.main.setViewport(0, 0, 800, 600);
         break;
       case "Level1":
         this.groundLayer = this.map.createStaticLayer("Ground", this.tileset);

@@ -57,7 +57,7 @@ export default class UserInterface {
   }
 
   initScreen() {
-    this.coinsText = this.scene.add.text(20, 20, 'Pièces : 25' , { fontSize: "25px" });
+    this.coinsText = this.scene.add.text(20, 20, 'Pièces : 0', { fontSize: "25px" });
   }
 
   updatePlayerInfos(player) {

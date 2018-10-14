@@ -9,7 +9,7 @@ export default class Player extends Phaser.GameObjects.Sprite {
     this.setDepth(10);
 
     this.speed = 100;
-    this.coins = 25;
+    this.coins = 0;
     this.inventory = {
       "speed_potion": 0,
       "vision_potion": 0
